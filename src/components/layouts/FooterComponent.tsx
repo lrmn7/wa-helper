@@ -29,7 +29,7 @@ const FooterComponent = () => {
           >
             {new Date().getFullYear()} | L RMN
           </UnderlineLink>
-          <UnstyledLink href="https://www.producthunt.com/posts/wa-helper?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-wa&#0045;helper">
+          <UnstyledLink href="https://www.producthunt.com/posts/wa-helper-2?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-wa&#0045;helper">
             <img
               src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=393986&theme=light"
               alt="WA&#0032;Helper - Send&#0032;the&#0032;WhatsApp&#0032;message&#0032;without&#0032;saving&#0032;the&#0032;phone&#0032;number | Product Hunt"
