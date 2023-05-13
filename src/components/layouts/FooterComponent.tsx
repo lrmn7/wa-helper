@@ -2,21 +2,23 @@
 import React from "react";
 import { GiPayMoney } from "react-icons/gi";
 import { SiKofi } from "react-icons/si";
-import clsx from "../../lib/helpers/clsx"; // Only one clsx import
+
+import clsxm from "@/lib/helpers/clsxm";
 
 import UnderlineLink from "../links/UnderlineLink";
+import UnstyledLink from "../links/UnstyledLink";
 
 const FooterComponent = () => {
   return (
-    <footer className={clsx("mt-24 w-full px-4 md:px-1 lg:mt-16")}>
+    <footer className={clsxm("mt-24 w-full px-4 md:px-1 lg:mt-16")}>
       <div
-        className={clsx(
+        className={clsxm(
           "flex flex-wrap items-center justify-center gap-2 sm:justify-between",
           "mx-auto my-4 max-w-4xl"
         )}
       >
         <div
-          className={clsx(
+          className={clsxm(
             "flex flex-wrap items-end justify-center",
             "gap-6 md:justify-start"
           )}
