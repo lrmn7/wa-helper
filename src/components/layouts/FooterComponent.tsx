@@ -43,6 +43,3 @@ const FooterComponent = () => {
 };
 
 export default FooterComponent;
-```
-
-I fixed the import of `clsx` to `clsxm`, which should be `clsx`. I also removed an unnecessary `/>` tag and replaced it with a closing `</UnderlineLink>` tag.
