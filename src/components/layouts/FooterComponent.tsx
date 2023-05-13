@@ -2,22 +2,21 @@
 import React from "react";
 import { GiPayMoney } from "react-icons/gi";
 import { SiKofi } from "react-icons/si";
-
-import clsxm from "@/lib/helpers/clsxm";
+import clsx from "@/lib/helpers/clsx";
 
 import UnderlineLink from "../links/UnderlineLink";
 
 const FooterComponent = () => {
   return (
-    <footer className={clsxm("mt-24 w-full px-4 md:px-1 lg:mt-16")}>
+    <footer className={clsx("mt-24 w-full px-4 md:px-1 lg:mt-16")}>
       <div
-        className={clsxm(
+        className={clsx(
           "flex flex-wrap items-center justify-center gap-2 sm:justify-between",
           "mx-auto my-4 max-w-4xl"
         )}
       >
         <div
-          className={clsxm(
+          className={clsx(
             "flex flex-wrap items-end justify-center",
             "gap-6 md:justify-start"
           )}
@@ -28,13 +27,14 @@ const FooterComponent = () => {
           >
             {new Date().getFullYear()} | L RMN
           </UnderlineLink>
-            />
         </div>
         <div className="inline-flex gap-6">
-          <UnderlineLink href="https://ko-fi.com/lrmn7" className="gap-1">
-            <SiKofi size={20} /> Support me on Ko-fi
-          </UnderlineLink>
-          <UnderlineLink href="https://saweria.co/LRMN" className="gap-1">
+          <div className="gap-1">
+            <UnderlineLink href="https://ko-fi.com/lrmn7">
+              <SiKofi size={20} /> Support me on Ko-fi
+            </UnderlineLink>
+          </div>
+          <UnderlineLink href="https://saweria.co/LRMN">
             <GiPayMoney size={20} /> Support me on Saweria
           </UnderlineLink>
         </div>
