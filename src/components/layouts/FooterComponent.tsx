@@ -3,6 +3,8 @@ import React from "react";
 import { GiPayMoney } from "react-icons/gi";
 import { SiKofi } from "react-icons/si";
 import clsx from "@/lib/helpers/clsx";
+import clsx from "../../lib/helpers/clsx";
+
 
 import UnderlineLink from "../links/UnderlineLink";
 
