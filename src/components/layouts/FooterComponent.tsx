@@ -6,7 +6,6 @@ import { SiKofi } from "react-icons/si";
 import clsxm from "@/lib/helpers/clsxm";
 
 import UnderlineLink from "../links/UnderlineLink";
-import UnstyledLink from "../links/UnstyledLink";
 
 const FooterComponent = () => {
   return (
@@ -31,12 +30,10 @@ const FooterComponent = () => {
           </UnderlineLink>
         </div>
         <div className="inline-flex gap-6">
-          <div className="gap-1">
-            <UnderlineLink href="https://ko-fi.com/lrmn7">
-              <SiKofi size={20} /> Support me on Ko-fi
-            </UnderlineLink>
-          </div>
-          <UnderlineLink href="https://saweria.co/LRMN">
+          <UnderlineLink href="https://ko-fi.com/lrmn7" className="gap-1">
+            <SiKofi size={20} /> Support me on Ko-fi
+          </UnderlineLink>
+          <UnderlineLink href="https://saweria.co/LRMN" className="gap-1">
             <GiPayMoney size={20} /> Support me on Saweria
           </UnderlineLink>
         </div>
