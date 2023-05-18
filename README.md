@@ -21,3 +21,14 @@ Actually, I made it for myself. But of course I'm open to any feedbacks. You can
 
 - [Tailwind CSS official docs](https://tailwindcss.com/)
 - [Create WA Link](https://create.wa.link/) as the main reference.
+
+
+## Support me
+
+- 👉 🇮🇩 [Trakteer](https://trakteer.id/lrmn) free access
+- 👉 🌍 [BuyMeACoffe](https://www.buymeacoffee.com/lrmn)
+- 👉 🌍 [Ko-Fi](https://ko-fi.com/lrmn7)
+
+---
+
+Copyright © 2020 by [L RMN](https://is-a.fun/)
